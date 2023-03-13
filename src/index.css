@@ -19,13 +19,16 @@ body {
 .square-styles {
   background-color: #444;
   color: white;
-  border: 1px solid #999;
+  border: 5px solid #999;
   padding: 0;
   font-size: 84px;
   text-align: center;
   width: 100px;
   height: 100px;
+  cursor: pointer;
 }
+
+
 
 .square-styles:focus {
   outline: none;
@@ -35,4 +38,10 @@ body {
 .board-row {
   display: flex;
   flex-flow: row nowrap;
+}
+
+.btn{
+  position: relative;
+  top: 100px;
+  left: -400px;
 }
